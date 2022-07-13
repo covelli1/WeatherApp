@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "autoprefixer": "^10.4.7",
     "axios": "^0.27.2",
+    "gh-pages": "^4.0.0",
     "postcss-cli": "^10.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -45,7 +46,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "gh-pages": "^4.0.0"
-  }
+  "devDependencies": {}
 }

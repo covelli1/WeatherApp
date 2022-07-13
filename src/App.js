@@ -25,7 +25,7 @@ function App() {
             <Routes>
               
               {/* MAKE SURE BOTH ROUTE TO HOME PAGE */}
-              <Route exact path="/" element={<Home />}></Route>
+              <Route path="/" element={<Home />}></Route>
             
               
             </Routes>
