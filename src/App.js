@@ -11,12 +11,17 @@ import Header from './Components/Header';
 
 function App() {
   return (
-    <div className='bg-blue-900 h-screen'>
-      <Router>
-          <Header/>
+    <div className='min-h-screen bg-blue-900'>
+      <div className='flex flex-col min-h-screen'>
+        <Router>
 
-          
-          <div className='p-3'>
+
+          <div className=''>
+            <Header/>
+          </div>
+            
+  
+          <div className='flex-grow'>
             <Routes>
               
               {/* MAKE SURE BOTH ROUTE TO HOME PAGE */}
@@ -25,11 +30,18 @@ function App() {
               
             </Routes>
           </div>
-          
 
-          <Footer/>
+
+          <div className=''>
+            <Footer/>
+          </div>
+            
+          
         </Router>
+      </div>
+      
     </div>
+    
     
   );
 }

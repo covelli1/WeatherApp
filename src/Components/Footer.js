@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
     return(
-        <footer className="bg-gray-200 text-center text-xs p-3 absolute bottom-0 w-full">
+        <footer className="bg-gray-200 text-center text-xs p-3 w-full sticky top-[100vh]">
             <div className="container flex items-center sm:flex-row flex-col">
                 <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
                 <img src="../../weather-icon.png"  width={50} height={50}></img>
