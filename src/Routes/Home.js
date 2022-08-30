@@ -16,7 +16,7 @@ function Home() {
     function getLocationLatLong() {
         console.log(inputLocation.current.value)
         if(inputLocation.current.value.length !== 0) {
-            let locationURL = `http://api.openweathermap.org/geo/1.0/direct?q=${inputLocation.current.value}&limit=5&appid=${api_key}`
+            let locationURL = `https://api.openweathermap.org/geo/1.0/direct?q=${inputLocation.current.value}&limit=5&appid=${api_key}`
             axios.get(locationURL)
             .then(response => {
                 if(response.data.length === 0) {
